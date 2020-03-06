@@ -204,6 +204,7 @@ namespace S3Console
             Console.ReadLine();
         }
 
+        //Versiyonlama yap
         public void BucketVersiyon()
         {
             PutBucketVersioningRequest request = new PutBucketVersioningRequest
